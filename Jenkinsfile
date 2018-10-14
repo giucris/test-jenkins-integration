@@ -1,8 +1,12 @@
-#!groovy
 pipeline {
-  node{
-    stage('checkout') {
-        checkout scm
-    }
-  }
+        stage('Checkout'){
+
+        }
+        stage('Build') {
+        }
+        stage('Test') {
+        }
+        stage('Deploy') {
+            }
+
 }
