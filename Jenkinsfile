@@ -1,4 +1,5 @@
 pipeline {
+stages{
         stage('Checkout'){
 
         }
@@ -8,5 +9,5 @@ pipeline {
         }
         stage('Deploy') {
             }
-
+}
 }
